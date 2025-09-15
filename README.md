@@ -1,3 +1,4 @@
+![Uploading image.png…]()
 # FS_SakshiKamble
 Problem Statement- Student Commute Optimizer (Full Stack)
 ## 🏗️ System Architecture
@@ -88,9 +89,38 @@ The Student Commute Optimizer is designed end-to-end with a **full-stack perspec
 7. **Full-Stack Integration** → Frontend visualizations, backend computation, real-time chat, and scalable data storage all work seamlessly together.
 
 ---
+## 🏗️ Full-Stack Architecture
+## 🏗️ Full-Stack Architecture
 
-**Summary:**  
-This solution demonstrates **end-to-end full-stack mastery**, combining **frontend UX**, **backend optimization**, **spatial databases**, **real-time messaging**, and **AI-powered predictive logic** into a **unique, scalable, privacy-conscious student commute optimizer**.
+The diagram below shows the end-to-end flow of the Student Commute Optimizer:
+
+```text
+Student App (Frontend - React + Mapbox)
+    • Anonymous Login
+    • Enter Start & Destination
+    • View Pickup Zones
+    • See Matches & Rewards
+    • Chat via WebSocket
+           │
+           ▼
+Backend API (FastAPI / Node.js)
+    • Route Processor (OSRM)
+    • Pickup Zone Generator (DBSCAN)
+    • Matching Engine (H3 + PostGIS)
+    • Reputation Ledger
+    • Safety & AI Predictor
+    • Chat Service (Redis Pub/Sub)
+           │
+           ▼
+Data Layer
+    • PostgreSQL + PostGIS (Routes & Queries)
+    • Redis + H3 Index (Fast Spatial Lookup)
+           │
+           ▼
+Ledger Storage
+    • Immutable ride & reputation events
+<img width="3840" height="1819" alt="systemarchitecture png" src="https://github.com/user-attachments/assets/e84d75b4-2aed-4a74-974f-1f3398220f97" />
+
 
 
 
