@@ -20,7 +20,6 @@ I wanted to design a student-first, full-stack solution that focuses on **privac
 - **Sustainability + Rewards** — CO₂ saved is shown per ride, and students earn Commute Points redeemable for campus perks.
 - **AI / Safety Layer** — lightweight anomaly detection flags suspicious patterns; an AI predictor pre-suggests common commutes.
 
-## ⚙️ Technical Approach
 ## ⚙️ Full-Stack Technical Approach
 
 The Student Commute Optimizer is designed end-to-end with a **full-stack perspective**, combining frontend interactivity, backend optimization, spatial databases, caching, real-time communication, and AI-powered predictive features.
